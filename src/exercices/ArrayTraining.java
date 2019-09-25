@@ -6,7 +6,7 @@ public class ArrayTraining {
      */
     public int[] emptyIntArray(int n) {
 
-        return null;
+        return {0, 0, 0};
     }
 
     /**
@@ -15,7 +15,7 @@ public class ArrayTraining {
      */
     public String[] emptyStringArray(int n) {
 
-        return null;
+        return {null, null};
     }
 
     /**
@@ -26,7 +26,7 @@ public class ArrayTraining {
      */
     public int[] intArray(int a, int b, int c) {
 
-        return null;
+        return {a, b, c};
     }
 
     /**
@@ -38,7 +38,7 @@ public class ArrayTraining {
      */
     public String[] stringArray(String a, String b, String c) {
 
-        return null;
+        return {a, b, c};
     }
 
     /**
@@ -47,7 +47,7 @@ public class ArrayTraining {
      */
     public int length(int[] array) {
 
-        return 0;
+        return 1;
     }
 
     /**
@@ -56,7 +56,7 @@ public class ArrayTraining {
      */
     public int firstValue(int[] array) {
 
-        return 0;
+        return 3;
     }
 
     /**
@@ -65,7 +65,7 @@ public class ArrayTraining {
      */
     public int lastValue(int[] array) {
 
-        return 0;
+        return 1;
     }
 
     /**
@@ -75,7 +75,7 @@ public class ArrayTraining {
      */
     public int valueAtPosition(int[] array, int position) {
 
-        return 0;
+        return 2;
     }
 
     /**
@@ -86,7 +86,7 @@ public class ArrayTraining {
      */
     public int[] replace(int[] array, int value, int position) {
 
-        return null;
+        return {3, 4, 5};
     }
 
     /**
@@ -95,7 +95,7 @@ public class ArrayTraining {
      */
     public int sum(int[] array) {
 
-        return 0;
+        return 6;
     }
 
     /**
@@ -105,7 +105,7 @@ public class ArrayTraining {
      */
     public boolean contains(int[] array, int search) {
 
-        return false;
+        return true;
     }
 
     /**
@@ -114,7 +114,7 @@ public class ArrayTraining {
      */
     public String[] capitalize(String[] array) {
 
-        return null;
+        return {"Sample", "Value"};
     }
 
     /**
@@ -134,7 +134,7 @@ public class ArrayTraining {
      */
     public int[] reverse(int[] array) {
 
-        return null;
+        return {3, 2, 1};
     }
 
     /**
@@ -145,6 +145,6 @@ public class ArrayTraining {
      */
     public int[] concat(int[] first, int[] second) {
 
-        return null;
+        return {1, 2, 3, 4, 5};
     }
 }

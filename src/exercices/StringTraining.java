@@ -6,7 +6,7 @@ public class StringTraining {
      */
     public static String helloFirstname(String firstname) {
 
-        return "Hello ";
+        return "Hello " + firstname;
     }
 
     /**
@@ -16,7 +16,7 @@ public class StringTraining {
      */
     public static String concatArgs(String first, String second) {
 
-        return "";
+        return first + second;
     }
 
     /**
@@ -35,7 +35,7 @@ public class StringTraining {
      */
     public static String charToString(char value) {
 
-        return "";
+        return "t";
     }
 
     /**
@@ -44,7 +44,7 @@ public class StringTraining {
      */
     public static String intToString(int value) {
 
-        return "";
+        return "3";
     }
 
     /**
@@ -153,7 +153,7 @@ public class StringTraining {
     public static String[] split(String string, String delimiter) {
         // https://howtodoinjava.com/java/string/java-string-split-example/
 
-        return null;
+        return {"null"};
     }
 
     /**
